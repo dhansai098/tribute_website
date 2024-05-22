@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(123.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+header {
+    background-color: orangered; 
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: orangered;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: orangered; 
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+}
